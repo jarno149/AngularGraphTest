@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+svg {
+  display: block;
+  height: 100%;
+
+  path {
+    stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: 1s;
+  }
+}

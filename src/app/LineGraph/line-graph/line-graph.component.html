@@ -1,0 +1,3 @@
+<svg [attr.viewBox]="svgViewBox" preserveAspectRatio="none" style="border: 2px solid red; height: 100px; width: 100%;">
+  <path *ngFor="let dataSet of dataSets; let i = index" [attr.d]="dataSet.path" [attr.stroke]="dataSets[i].color" [attr.fill]="dataSets[i].fill ? dataSets[i].color : 'none'" vector-effect="non-scaling-stroke" stroke-width="2" />
+</svg>
